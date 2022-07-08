@@ -72,7 +72,7 @@ const PaymentStripeComplete = () => {
     const parsedData = JSON.parse(data);
     
     if(parsedData.TraditionalPaymentNumber !== null) {
-        parsedData.TraditionalPaymentNumber = "Paid with Stripe, check your account"
+        parsedData.TraditionalPaymentNumber = "Paid with Stripe, check your account";
     }
 
     const ClientData = parsedData;
