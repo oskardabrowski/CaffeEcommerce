@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.x"
-  }
+    "node": "16.x"
+  },
   "dependencies": {
     "@react-spring/parallax": "^9.3.1",
     "@stripe/react-stripe-js": "^1.7.0",
